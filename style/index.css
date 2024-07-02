@@ -1,1 +1,57 @@
 @import url(main.css);
+
+/* NAV */
+nav {
+    background-color: var(--lightBlue);
+    color: var(--white);
+    padding: 0.5rem 2rem;
+    border-radius: 0 0 0.75rem 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav .left {
+    font-size: 1rem;
+    font-weight: 700;
+}
+nav .right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+nav .right a {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--white);
+}
+nav .right a {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--white);
+}
+nav .right a:hover {
+    transition: 0.15s ease-in-out;
+}
+nav .right a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.1rem solid var(--white);
+    transform: scaleX(0);
+    transition: 0.15s ease-in-out;
+}
+nav .right a:hover::after {
+    transform: scaleX(1);
+    transition: 0.15s ease-in-out;
+}
+
+/* CONTENT */
+#content {
+    padding: 4rem;
+}
+
+/* HEADER */
+header {
+    color: ;
+}
