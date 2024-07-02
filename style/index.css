@@ -53,5 +53,24 @@ nav .right a:hover::after {
 
 /* HEADER */
 header {
-    color: ;
+    color: var(--white);
+}
+header h1 {
+    font-size: 6rem;
+    background: linear-gradient(45deg, #6B89B6, #f3f3f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* FOOTER */
+footer {
+    font-size: 0.75rem;
+    color: var(--white);
+    background-color: var(--lightBlue);
+    padding: 2.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem 0.75rem 0 0;
 }
