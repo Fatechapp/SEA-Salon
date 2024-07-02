@@ -82,7 +82,7 @@ header h1 {
 }
 
 /* SERVICE */
-#service {
+#service, #contact {
     color: var(--lightBlue);
     background-color: var(--white);
     border-radius: 0.5rem;
